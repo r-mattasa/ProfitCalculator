@@ -1,9 +1,15 @@
 
 React - Front end 
 
+Before running the project
+
+Please Navigate to the my-app folder and Run command ``npm install` command to install the necessary packages.
+
+To run the Frontend 
 Navigate to the my-app folder and Run command ``npm start` command.
 
 This will start the application in the localhost: http://localhost:3000/
+
 In the App UI : 
 The left column is used to calculate the profit and  
 
