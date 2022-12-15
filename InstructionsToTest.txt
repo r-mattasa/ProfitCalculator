@@ -1,0 +1,52 @@
+
+React - Front end 
+
+Navigate to the my-app folder and Run command ``npm start` command.
+
+This will start the application in the localhost: http://localhost:3000/
+In the App UI : 
+The left column is used to calculate the profit and  
+
+The right Column shows us the Total time Based and Distance based calculation. The user can set the profit margin and recalculate the profit which will be displayed in the chnage income to field.
+
+Once the calculation is performed the user can save the orderData if he wish.
+
+
+API Call: Please make sure the correct api url(BASEURL) is set in the api/index.js file
+
+
+C#.net core Profitcalculator - Web Api - Backend:
+
+Installed the following packages for .netcore ef6
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.sqlServer
+Microsoft.EntityFrameworkCore.tools
+
+for DB Migration : 
+
+Go to Package Manager Console(In VS2022 - tools -> nuget Package manager-> package manager console) : 
+
+
+run PM>  Add-Migration --- NAME--- for example: Add-Migration initliatizeData
+
+PM> Update-Database
+
+
+To Connect to the Databse 
+
+connect the SQL server  :  (in this case ) (localdb)\\mssqllocaldb.
+
+Run the Application 
+Run the AppProfitcalculator using dotnet build command and dotnet run commmnad or via the Visual studio run button.
+
+The application will open the swagger ui with possible Api calls. (https://localhost:7214) Once this is run sucessfully the api call can be placed and test and verified.
+
+
+
+
+
+
+
+
+

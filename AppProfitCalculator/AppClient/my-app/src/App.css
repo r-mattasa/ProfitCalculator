@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+  border: 2px solid dashed #b6ff00;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: goldenrod;
+}
+
+.rounded5 {
+  background-color: lightgray;
+  border-radius: 5px;
+  justify-content: center;
+  box-shadow: 5px 10px 10px 10px darkgray;
+  padding: 25px 40px;
+}
+
+.container-header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.container-division {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 8px;
+  width: 100%;
+  height: 450px;
+}
+
+.container-division-item1 {
+  width: 100%;
+  background-color: yellowgreen;
+  justify-items: left;
+}
+
+.container-division-item2 {
+  width: 100%;
+  background-color: white;
+  justify-items: right;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+/* New styles*/
+form {
+  width: 100%;
+}
+form .btn {
+  color: #eee;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select {
+  border: 1px solid #eeee;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/*Sample css */
+.MainContainer {
+  text-align: center;
+  border: 2px solid dashed #b6ff00;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.containerdiv {
+  text-align: center;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: row;
+  flex: 1 0;
+  padding: 25px;
+  background-color: goldenrod;
+  max-width: 960px;
+}
+
+.containerdivision1 {
+  width: 60%;
+  min-height: 70px;
+  max-width: 40%;
+  border: 2px solid #b6ff00;
+  background-color: #fff;
+  margin-top: 40px;
+  min-height: 70px;
+}
+.containerdivision2 {
+  width: 40%;
+  background-color: #fff;
+  border: 2px solid #b6ff00;
+  margin-top: 40px;
+  min-height: 70px;
+}
+
+@media (max-width: 740px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: goldenrod;
+  }
+  .containerdiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 25px;
+    background-color: goldenrod;
+  }
+  .containerdivision1 {
+    min-width: 100%;
+    border: 2px solid #b6ff00;
+    background-color: #fff;
+    margin-top: 40px;
+    min-height: 70px;
+  }
+  .containerdivision2 {
+    width: auto;
+    background-color: #fff;
+    border: 2px solid #b6ff00;
+    margin-top: 40px;
+    min-height: 70px;
+  }
+}
